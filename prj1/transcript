@@ -1,0 +1,35 @@
+# vsim Multiplier_Wrapper_tb -voptargs="+acc" 
+# Start time: 11:34:58 on Jan 07,2023
+# Loading work.Multiplier_Wrapper_tb
+# Loading work.top
+# Loading work.boothcode
+# Loading work.C32
+# Loading work.C42
+# Loading work.SVA
+run
+#                    0 Starting the Simulation
+# A=          x, B=          x, M=                    x, golden_model=                    x
+# SVAION FAILED in A=          0, B=          0, M=                    x, golden_model=                    x
+# ** Note: $finish    : ./src/newtoptest.v(117)
+#    Time: 3600 ps  Iteration: 0  Instance: /Multiplier_Wrapper_tb/a0
+# 1
+# Break in Module SVA at ./src/newtoptest.v line 117
+run
+# A=          0, B=          0, M=                    0, golden_model=                    0
+# A=  303379748, B=-1064739199, M=  -323020309878341852, golden_model=  -323020309878341852
+# A=-2071669239, B=-1309649309, M=  2713160187332905851, golden_model=  2713160187332905851
+# A=  112818957, B= 1189058957, M=   134148391340247849, golden_model=   134148391340247849
+# A=-1295874971, B=-1992863214, M=  2582501559649216794, golden_model=  2582501559649216794
+# A=   15983361, B=  114806029, M=     1834986206483469, golden_model=     1834986206483469
+# A=  992211318, B=  512609597, M=   508617043858818846, golden_model=   508617043858818846
+# A= 1993627629, B= 1177417612, M=  2347332282154401948, golden_model=  2347332282154401948
+# A= 2097015289, B= -482925370, M= -1012701884335981930, golden_model= -1012701884335981930
+# A= -487095099, B= -720121174, M=   350767494541526226, golden_model=   350767494541526226
+# A= 1924134885, B=-1143836041, M= -2200894829208390285, golden_model= -2200894829208390285
+# A=-1993157102, B= 1206705039, M= -2405152718502036978, golden_model= -2405152718502036978
+# A= 2033215986, B= -411658546, M=  -836990736500716356, golden_model=  -836990736500716356
+# A= -201295128, B= -490058043, M=    98646296493114504, golden_model=    98646296493114504
+# A=  777537884, B= -561108803, M=  -436283351378392852, golden_model=  -436283351378392852
+# A=-1767155667, B=-1297668507, M=  2293182256032479169, golden_model=  2293182256032479169
+# End time: 11:36:05 on Jan 07,2023, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 0
